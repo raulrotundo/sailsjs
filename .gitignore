@@ -1,0 +1,8 @@
+node_modules/
+vm/.vagrant/
+.tmp/
+.npm/
+vm/env.yml
+.cache/
+.config/
+.bash_history
