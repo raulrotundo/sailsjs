@@ -1,8 +1,10 @@
 node_modules/
-vm/.vagrant/
+.vagrant/
 .tmp/
 .npm/
+npm-debug.log
 vm/env.yml
 .cache/
 .config/
 .bash_history
+puphpet/config-custom.yaml
