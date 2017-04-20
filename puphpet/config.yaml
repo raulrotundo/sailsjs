@@ -3,7 +3,7 @@ vagrantfile:
     vm:
         provider:
             local:
-                box: puphpet/ubuntu1604-x64
+                box: puphpet/ubuntu1404-x64
                 box_url: 'false'
                 box_version: '0'
                 chosen_virtualizer: virtualbox
@@ -92,6 +92,8 @@ server:
     packages:
         - vim
         - htop
+        - rsync
+        - wget
 users_groups:
     install: '1'
     groups:
@@ -365,10 +367,14 @@ python:
 nodejs:
     install: '1'
     settings:
-        version: '6'
+        version: '7'
     npm_packages:
         - npm@latest
         - sails
+        - sails-mongo
+        - jasmine
+        - karma
+        - grunt
 mariadb:
     install: '0'
     settings:
