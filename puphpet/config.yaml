@@ -31,6 +31,9 @@ vagrantfile:
                                 vflmnfp_sails:
                                     host: '1337'
                                     guest: '1337'
+                                vflmnfp_angular:
+                                    host: '4200'
+                                    guest: '4200'
                         memory: '512'
                         cpus: '1'
         provision:
@@ -372,8 +375,6 @@ nodejs:
         - npm@latest
         - sails
         - sails-mongo
-        - jasmine
-        - karma
         - grunt
 mariadb:
     install: '0'
